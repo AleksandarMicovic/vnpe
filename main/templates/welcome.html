@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<script src="{{ STATIC_URL }}js/jquery.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function() {
+				$("#connect").click(function(event) {
+					event.preventDefault();
+					window.location = "/room/" + $("#channel").val();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<p> Enter a channel name to connect to it: <input type="text" id="channel" />. Use only letters and numbers.<p>
+
+		<p><a href="#" id="connect">Click here to connect.</a></p>
+	</body>
+</html>
