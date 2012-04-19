@@ -1,0 +1,17 @@
+DEPENDENCIES
+============
+Python 2.6+ (http://www.python.org/)
+Django (https://www.djangoproject.com/)
+django_socketio (https://github.com/stephenmcd/django-socketio)
+
+
+INSTRUCTIONS
+============
+Just run,
+	
+	python manage.py runserver django_socketio
+
+
+NOTES
+=====
+This project is a prototype and is under active development.
