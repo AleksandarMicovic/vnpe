@@ -1,3 +1,29 @@
+WHAT IS IT?
+===========
+A 2D sandbox where you can create objects, and share them in real
+time with others. It's physics-enabled (Box2D), and the environment
+has sane defaults for gravity, friction, etc. to start you off.
+Flinging an object across the screen will appear on someone else's
+browser, but only if they are connected with you.
+
+
+WHAT'S DONE
+===========
+- Physics is 100% integrated now.
+- Basic framework for creating shapes.
+- Basic WebSocket infrastructure.
+- The sending of data to other users.
+- Creation of objects (right-clicking creates a random shape for now).
+
+
+TODO
+====
+- Object UI, so that people can actually choose what to create instead
+of having random objects spawn.
+- Correct object appearing on another person's browser once arrived.
+- Small bugs here and there.
+
+
 DEPENDENCIES
 ============
 Python 2.6+ (http://www.python.org/)
